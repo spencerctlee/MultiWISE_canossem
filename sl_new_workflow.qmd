@@ -1,0 +1,21 @@
+---
+title: "sl_new_workflow"
+format: html
+---
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(terra)
+library(bcmaps)
+
+pm25 <- read.csv("./Results/BC_CSD_MultiWiSE_Metrics_2010-2023.csv")
+glimpse(pm25)
+
+```
+```{r}
+
+hsda <- health_hsda()
+csd 
+
+```
